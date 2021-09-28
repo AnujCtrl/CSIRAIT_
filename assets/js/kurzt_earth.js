@@ -4,7 +4,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
-var center = { x: (canvas.width / 2) + 400, y: canvas.height / 2 };
+var center = { x: (canvas.width / 2) + 400, y: (canvas.height / 2) };
 
 
 function Circle(x, y, radius, fillColor) {
